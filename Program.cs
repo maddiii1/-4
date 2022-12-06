@@ -27,7 +27,7 @@ Console.Write("Результат: "+ v);
 //452 -> 11
 //82 -> 10
 //9012 -> 12
-
+/*
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
@@ -40,4 +40,15 @@ for (;number > 0;)
 }
 
 Console.Write("Результат суммы: " + sum);
+*/
+
+//Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+//1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+//6, 1, 33 -> [6, 1, 33]
+
+object [] array = new object[] {1,2,3,4,5,6,7,8};
+Console.WriteLine("[{0}]", string.Join(", ",array));
+
+
+
 
